@@ -1,0 +1,58 @@
+.wrapper{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 900px;
+}
+.wrapper__body{
+    height: 300px;
+    width: 100%;
+    background-color: #ccc;
+    margin-top: 50px;
+    display: flex;
+}
+.allcar{
+    width: 90%;
+}
+.race{
+    width: 10%;
+}
+.car__icon1{
+    color: red;
+    font-size: 30px;
+}
+.car__icon2{
+    color: yellow;
+    font-size: 30px;
+}
+.car__icon3{
+    color: green;
+    font-size: 30px;
+}
+.car{
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.btn__click{
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+}
+button{
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    background-color: blue;
+}
+
+@keyframes moveFadein {
+    from {
+        padding-left: 0px;
+    }
+    to{
+        padding-left: 785px;
+    }
+}
